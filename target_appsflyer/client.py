@@ -1,9 +1,3 @@
-from __future__ import annotations
-
-import os
-
-from pydantic import BaseModel
-from target_hotglue.auth import ApiAuthenticator
 from target_hotglue.client import HotglueSink
 import requests
 from singer_sdk.exceptions import FatalAPIError, RetriableAPIError
